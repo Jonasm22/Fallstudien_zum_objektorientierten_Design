@@ -4,11 +4,13 @@ package Waschmaschine;
 public class WashingMachine {
     //attributen
     private State currentState;
+    //Attributen hinzugefügt
     private Program selectedProgram;
     private Temperature selectedTemperaturWert;
 
-    //Konstruktor
+    //Konstruktor Empty
     public WashingMachine() {
+        //Initialisierungswerte
         this.currentState = State.OFF;
         this.selectedProgram = null;
         this.selectedTemperaturWert = null;
@@ -97,6 +99,8 @@ public class WashingMachine {
             System.out.println(currentState = State.OFF);
         } else {
             System.out.println("Error");
+
+
         }
 
     }
