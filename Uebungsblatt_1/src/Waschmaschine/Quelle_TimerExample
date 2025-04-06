@@ -1,0 +1,25 @@
+
+**SIMPLE COUNTDOWN TIMER EXAMPLE GENERATED WITH IA**
+
+public class CountdownTimer {
+
+    public static void main(String[] args) {
+        int seconds = 10; // Set the countdown duration in seconds
+
+        System.out.println("Countdown starting from " + seconds + " seconds...");
+
+        for (int i = seconds; i >= 0; i--) {
+            System.out.println(i + " seconds remaining");
+
+            try {
+                // Pause for 1 second (1000 milliseconds)
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                System.out.println("Countdown interrupted!");
+                return;
+            }
+        }
+
+        System.out.println("Time's up!");
+    }
+}

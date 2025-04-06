@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Bibliotheksverwaltungssystem/Bibliotheksverwaltungssystem.iml" filepath="$PROJECT_DIR$/Bibliotheksverwaltungssystem/Bibliotheksverwaltungssystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/Uebungsblatt_1/Uebungsblatt_1.iml" filepath="$PROJECT_DIR$/Uebungsblatt_1/Uebungsblatt_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Uebungsblatt_2/Uebungsblatt_2.iml" filepath="$PROJECT_DIR$/Uebungsblatt_2/Uebungsblatt_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vorlesung_1/Vorlesung_1.iml" filepath="$PROJECT_DIR$/Vorlesung_1/Vorlesung_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vorlesung_2_Interfaces/Vorlesung_2_Interfaces.iml" filepath="$PROJECT_DIR$/Vorlesung_2_Interfaces/Vorlesung_2_Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/fallstudienZumObjektorientiertenDesign.iml" filepath="$PROJECT_DIR$/fallstudienZumObjektorientiertenDesign.iml" />
     </modules>
   </component>

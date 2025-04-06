@@ -2,14 +2,14 @@
 package Waschmaschine;
 
 public class WashingMachine {
-    //attributen
+    //attribute
     private State currentState;
-    //Attributen hinzugefügt
+    //Attribute Hinzugefügt
     private Program selectedProgram;
     private Temperature selectedTemperaturWert;
 
-    //Konstruktor Empty
-    public WashingMachine() {
+    //Empty constructor
+    public WashingMachine( ) {
         //Initialisierungswerte
         this.currentState = State.OFF;
         this.selectedProgram = null;
@@ -22,7 +22,7 @@ public class WashingMachine {
     }
 
     public void powerOn() {
-        System.out.println(getCurrentState());
+       // System.out.println(getCurrentState());
         if (currentState == State.OFF) {
             currentState = State.READY;
         }
@@ -32,9 +32,8 @@ public class WashingMachine {
 
 
     public void selectProgram(Program program) {
-
-        if (currentState == State.READY) {
             selectedProgram = program;
+        if (currentState == State.READY) {
             switch (program) {
                 case Program.DELICATE:
                     System.out.println("Program: " + Program.DELICATE);
@@ -54,8 +53,8 @@ public class WashingMachine {
 
     public void setTemperature(Temperature temperature) {
 
+        selectedTemperaturWert = temperature;
         if (currentState == State.READY) {
-            selectedTemperaturWert = temperature;
             switch (temperature) {
 
                 case Temperature.COLD:
@@ -76,8 +75,8 @@ public class WashingMachine {
         }
     }
 
-    public void Start() {
-          /*Alternativ
+    public void start() {
+          /*Alternative
         if(currentState == State.READY && selectedProgram ==  Program.NORMAL
           && selectedTemperaturWert ==Temperature.WARM){
          ---- etc
@@ -85,6 +84,7 @@ public class WashingMachine {
         if (currentState == State.READY && selectedProgram != null && selectedTemperaturWert != null) {
             System.out.println("Status: " + State.Running);
 
+            //<Timer>
             for(int timer = 7; timer >= 1; --timer) {
                 System.out.println("Timer: " +  timer);
 
@@ -94,6 +94,7 @@ public class WashingMachine {
                     System.out.println("Washing interrupted");
                 }
             }
+            //</Timer>
 
             System.out.println("Washing completed!");
             System.out.println(currentState = State.OFF);
@@ -110,6 +111,6 @@ public class WashingMachine {
         washingmaschine.powerOn();
         washingmaschine.selectProgram(Program.NORMAL);
         washingmaschine.setTemperature(Temperature.WARM);
-        washingmaschine.Start();
+        washingmaschine.start();
     }
 }

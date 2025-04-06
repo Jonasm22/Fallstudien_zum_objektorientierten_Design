@@ -13,7 +13,6 @@ public class Berechnungen {
     public static void main(String[] args) {
 
         System.out.println( "Ergebnis: " + multiplikation(6,3,7));
-        
 
     }
 

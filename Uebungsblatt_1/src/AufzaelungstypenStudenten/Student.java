@@ -1,5 +1,6 @@
 package AufzaelungstypenStudenten;
 
+//Regelstudienzeit fehlt  - enum anwenden
 public class Student {
     //Attributen:
     private String Name;
@@ -17,7 +18,8 @@ public class Student {
 
     //String Method
     public String toString() {
-        return "Name: " + this.Name + "\nVorname: " + this.Vorname + "\nMatrikelNr: " + this.MatrikelNr + "\nStudiegang: " + this.Studiegang;
+        return "Name: " + this.Name + "\nVorname: " + this.Vorname + "\nMatrikelNr: " + this.MatrikelNr + "\nStudiegang: "
+                + this.Studiegang + "\n------------------";
     }
 
     public static void main(String[] args) {
@@ -38,5 +40,12 @@ public class Student {
         students[10] = new Student("Eva", "Wagner", "10293", "BWL");
         //</Generiert>
         System.out.println(students[3]);
+
+        /*
+        for( Student student : students){
+            System.out.println(student );
+        }
+        */
+
     }
 }

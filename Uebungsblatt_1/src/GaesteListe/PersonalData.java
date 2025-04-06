@@ -18,12 +18,12 @@ public class PersonalData {
         return email;
     }
 
-
+/*
     @Override
     public String toString(){
         return "Name= " + firstName +" ||" + " Email= " + email;
     }
 
-
+*/
 
 }

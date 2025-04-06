@@ -7,12 +7,13 @@ public enum Temperature {
 
     private final int temperaturWert;
 
-    private Temperature(int temperaturWert) {
+    //Konstructor
+    Temperature(int temperaturWert) {
         this.temperaturWert = temperaturWert;
     }
 
+    //getter
     public int getTemperaturWert() {
-
         return this.temperaturWert;
     }
 }
