@@ -2,9 +2,9 @@ package CaesarCipher;
 
 public class  myMain{
     public static void main(String[] args) {
-        IVerschluesselung message = new CaesarChiffre(3);
+        IVerschluesselung message = new CaesarChiffre(6);
         message.chiffrieren("Hola Mundo");
-        message.dechiffrieren( "Krod Pxqgr");
+        message.dechiffrieren( "Nurg SAtju");
 
     }
 }
