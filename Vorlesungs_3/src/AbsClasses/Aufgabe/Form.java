@@ -10,8 +10,12 @@ class Rechteck extends Form{
     double laenge;
     double breite;
 
-   // Konstructor
-    public Rechteck(double laenge, double breite) {
+
+    public Rechteck() {
+    }
+
+    // Konstructor
+    protected Rechteck(double laenge, double breite) {
         this.laenge = laenge;
         this.breite = breite;
     }
