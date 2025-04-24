@@ -15,5 +15,6 @@ public class Charakter {
        magier.verteidigen();
 
 
+
     }
 }

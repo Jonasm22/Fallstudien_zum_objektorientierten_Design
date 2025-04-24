@@ -8,7 +8,7 @@ public class CaeserCipher extends Verschluesselung{
             'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
 
 
-    //This variable will move a number of steps to the right
+    //This attribute will move a number of steps to the right
     private int shiftAmount;
 
     //Constructor
@@ -63,8 +63,8 @@ public class CaeserCipher extends Verschluesselung{
         return cypherText;
     }
 
-   // Returns the index of a letter within the alphabet array
-    public static  int getIndexFromAlphabet(char letter){
+   // returns the index of a letter within the alphabet array
+    public static int getIndexFromAlphabet(char letter){
         for(int index = 0;  index<alphabet.length; index++){
             if(alphabet[index] ==  letter){
                 //System.out.println(i);

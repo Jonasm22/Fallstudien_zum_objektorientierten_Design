@@ -1,6 +1,6 @@
 package Rollenspiellogik;
 
 public interface Strategie {
-    void kampfmanoever();
+    void kampfmanoever(); //combat maneuvers
 
 }
