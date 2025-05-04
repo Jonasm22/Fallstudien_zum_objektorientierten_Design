@@ -1,4 +1,4 @@
-package EigenstaendigGenerischeMethoden;
+package EigenstaendigGenerischeMethoden.Example_1;
 
 public class Customer {
     private String name;

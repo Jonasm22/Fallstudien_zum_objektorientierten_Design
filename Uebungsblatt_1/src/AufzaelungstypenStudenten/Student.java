@@ -8,6 +8,7 @@ public class Student {
     private String MatrikelNr;
     private String Studiegang;
 
+
     //Konstruktor:
     public Student(String name, String vorname, String matrikelNr, String studiegang) {
         this.Name = name;
@@ -15,6 +16,10 @@ public class Student {
         this.MatrikelNr = matrikelNr;
         this.Studiegang = studiegang;
     }
+   
+
+
+
 
     //String Method
     public String toString() {

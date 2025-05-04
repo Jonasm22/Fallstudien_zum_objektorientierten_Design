@@ -18,7 +18,6 @@ private  T percentage;
 
     public static void main(String[] args) {
 
-        //we create only number data types
         Discount<Integer> integerDiscount = new Discount<>(10);
         Discount<Double> doubleDiscount = new Discount<>(20.5);
         System.out.println("Original price: $200");

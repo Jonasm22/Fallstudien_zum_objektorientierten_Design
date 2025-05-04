@@ -1,4 +1,4 @@
-package EigenstaendigGenerischeMethoden;
+package EigenstaendigGenerischeMethoden.Example_1;
 
 
 import java.util.Arrays;
@@ -32,7 +32,8 @@ public class Utils {
                 new Customer("Maria", "Maria@T.com"),
                 new Customer("Lisa", "Lisa@T.com"),
                 new Customer("Pedro", "Pedro@T.com"),
-                new Customer("Jonas", "Jonas@T.com")
+                new Customer("Jonas", "Jonas@T.com"),
+
         };
 
         // Show the first customer using getFirstOrNull
