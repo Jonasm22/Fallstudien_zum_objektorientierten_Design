@@ -1,4 +1,4 @@
-package InterfaceIterator;
+package B_InterfaceIterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

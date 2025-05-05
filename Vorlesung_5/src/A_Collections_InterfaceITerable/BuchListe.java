@@ -1,6 +1,5 @@
-package Collections_InterfaceITerable;
+package A_Collections_InterfaceITerable;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
 
