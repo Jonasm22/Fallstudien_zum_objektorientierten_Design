@@ -11,7 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/Vorlesung_1/Vorlesung_1.iml" filepath="$PROJECT_DIR$/Vorlesung_1/Vorlesung_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Vorlesung_2_Interfaces/Vorlesung_2_Interfaces.iml" filepath="$PROJECT_DIR$/Vorlesung_2_Interfaces/Vorlesung_2_Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Vorlesung_4/Vorlesung_4.iml" filepath="$PROJECT_DIR$/Vorlesung_4/Vorlesung_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vorlesung_5/Vorlesung_5.iml" filepath="$PROJECT_DIR$/Vorlesung_5/Vorlesung_5.iml" />
       <module fileurl="file://$PROJECT_DIR$/fallstudienZumObjektorientiertenDesign.iml" filepath="$PROJECT_DIR$/fallstudienZumObjektorientiertenDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vorlesung_1/varargs/varargs.iml" filepath="$PROJECT_DIR$/Vorlesung_1/varargs/varargs.iml" />
     </modules>
   </component>
 </project>
