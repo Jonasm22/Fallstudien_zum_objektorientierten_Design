@@ -8,6 +8,5 @@ public class main {
         message.dechiffrieren("Khoor Zruog");
 
 
-
     }
 }

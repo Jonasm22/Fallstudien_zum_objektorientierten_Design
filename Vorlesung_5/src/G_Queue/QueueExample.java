@@ -6,6 +6,39 @@ import java.util.Stack;
 
 public class QueueExample {
     public static void main(String[] args) {
+
+        Example_Two();
+
+    }
+
+
+    public  static void Example_Two(){
+
+        Queue<String> supermarket = new LinkedList<>();
+
+        supermarket.add("Maria");
+        supermarket.add("Lisa");
+        supermarket.add("Pedro");
+        supermarket.add("Carlos");
+        System.out.println("Clients in the Queue.");
+        System.out.println(supermarket);
+        System.out.println("-------------------------");
+
+        System.out.println("In the checkout is: " + supermarket.poll());
+        System.out.println("The next one is: : " + supermarket.peek());
+        System.out.println(supermarket);
+        System.out.println("In the checkout is: " + supermarket.poll());
+        System.out.println("The next one is: : " + supermarket.peek());
+        System.out.println(supermarket);
+
+
+
+
+
+    }
+
+    public static void Example_One(){
+
         Queue<String> myQueue = new LinkedList<>();
 
         // push items onto the stack
