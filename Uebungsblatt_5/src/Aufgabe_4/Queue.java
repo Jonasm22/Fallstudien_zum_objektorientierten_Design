@@ -63,21 +63,21 @@ public class Queue <T> {
 
     @Override
     public String toString() {
-        StringBuilder bd = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
 
         if (anfang == null) {
             return "Leere Queue";
         } else {
             Node<T> current = anfang;
             while (current != null) {
-                bd.append(current.getValue().toString());
+                stringBuilder.append(current.getValue().toString());
                 if(current.getNext() !=null){
-                    bd.append(" -> ");
+                    stringBuilder.append(" -> ");
                 }
                 current = current.getNext();
             }
 
-            return bd.toString();
+            return stringBuilder.toString();
         }
 
 
