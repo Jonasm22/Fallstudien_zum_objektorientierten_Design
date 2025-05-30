@@ -35,9 +35,10 @@ public class Session {
         this.speaker = speaker;
     }
 
-    public void print(){
 
-        System.out.printf("%s %s %s %s %n" , schwierigkeitsgrad , tittle , speaker);
+    public void printSessionInfo(){
+
+        System.out.printf("%s %s %s %n" , schwierigkeitsgrad , tittle , speaker);
 
     }
 
