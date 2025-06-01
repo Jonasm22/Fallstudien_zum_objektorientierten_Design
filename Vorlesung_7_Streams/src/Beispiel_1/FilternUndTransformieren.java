@@ -10,7 +10,7 @@ public class FilternUndTransformieren {
     //Filtern und Transformieren mit filter und map
     public static void main(String[] args) {
 
-      Excersice();
+      ZahlenVerdoppeln();
     }
 
     public static void ZahlenVerdoppeln(){
