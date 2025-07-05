@@ -19,7 +19,6 @@ public class Testing {
         }
 
 
-
     class Solution {
         public boolean isPalindrome(int x) {
 
@@ -44,7 +43,16 @@ public class Testing {
         System.out.println(Arrays.toString(twoSum(new int[]{2, 7, 11, 15}, 17)));
         System.out.println(Arrays.toString(twoSum(new int[]{3,3}, 6)));
 
+        String name = "Lisa";
+        int edad = 30;
+        double totalCambio = 114.40 / 12.2;
+        double total = 434.9385;
+
+       // System.out.printf("%d, %.2f,%n %s" , edad, totalCambio, name) ;
+        System.out.printf("%.2f" , total);
 
 
     }
+
+
 }

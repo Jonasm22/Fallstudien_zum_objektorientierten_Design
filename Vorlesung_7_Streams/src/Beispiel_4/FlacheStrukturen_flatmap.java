@@ -16,7 +16,7 @@ public class FlacheStrukturen_flatmap {
 
     public static void main(String[] args) {
 
-        saetze();
+     worterSammel();
 
     }
 

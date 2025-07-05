@@ -9,13 +9,14 @@ import java.util.List;
 
 public class ReduktionMitreduce {
     public static void main(String[] args) {
+reduce_Exercise();
+Aufgabe_2();
 valMax();
-
     }
     public static void reduce_Exercise(){
         List<Integer> zahlen = Arrays.asList(5, 8, 3, 10);
         int summe = zahlen.stream()
-                .reduce(1, (aac,n)-> aac+n);
+                .reduce(0, (n1,n2)-> n1+n2);
         System.out.println("Summe: " + summe);
     }
 

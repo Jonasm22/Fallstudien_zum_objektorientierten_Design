@@ -13,7 +13,6 @@ public class Streams {
     }
 
 
-
     public static void FilternEinerListe(){
 
       //alle geraden Zahlen daraus ausgeben
@@ -22,7 +21,6 @@ public class Streams {
              .filter(n -> n % 2 != 0) // Filter immer mit lambda anwenden
               //.filter(n -> n <= 4 ) // Filter immer mit lambda anwenden
               .forEach(System.out::println);
-
 
 
     }
@@ -34,8 +32,5 @@ public class Streams {
                 .filter(nameWith_a -> nameWith_a.toLowerCase().startsWith("a"))
                 .forEach(System.out::println);
     }
-
-
-
 
 }

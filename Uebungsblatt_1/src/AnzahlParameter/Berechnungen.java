@@ -2,17 +2,23 @@ package AnzahlParameter;
 
 public class Berechnungen {
 
-    public  static int multiplikation(int... numbers){
+
+    public static int multiplikation(int... value){
+
         int result = 1;
-        for( int num : numbers){
-            result *= num;
+        for(int i : value){
+            result *= i;
         }
         return result;
-    }
 
+    }
     public static void main(String[] args) {
 
-        System.out.println( "Ergebnis: " + multiplikation(6,3,7));
+
+        int r = multiplikation(3,3,3,2,4,6);
+
+        System.out.println(r);
+
 
     }
 

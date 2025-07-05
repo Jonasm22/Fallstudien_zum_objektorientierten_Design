@@ -172,7 +172,7 @@ class Kreis extends Form {
 }
 
 public class Main {
-    public static void main(String[] args) {
+    public static void Mymain(String[] args) {
         Form[] formen = new Form[] {
             new Rechteck(5, 3),
             new Kreis(4)
@@ -214,7 +214,7 @@ class Kreis implements Form {
     }
 }
 ```
-Das Hauptprogramm mit der main-Methode bleibt gleich. Der Unterschied ist, dass die Klassen `Rechteck` und `Kreis` das Interface `Form` implementieren statt von einer abstrakten Klasse zu erben.
+Das Hauptprogramm mit der Mymain-Methode bleibt gleich. Der Unterschied ist, dass die Klassen `Rechteck` und `Kreis` das Interface `Form` implementieren statt von einer abstrakten Klasse zu erben.
 </details>
 
 ## Zusammenfassung
